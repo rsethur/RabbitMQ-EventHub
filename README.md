@@ -1,8 +1,8 @@
-# Push events from RabbitMQ to Azure Event Hubs
+# Push events from RabbitMQ to Azure Event Hubs - Tutorial Code
 
 A fun collaboration between [Sethu Raman](https://github.com/rsethur/) and __Donovan White__.
 
-__Work in progress -beware!__
+_Note: This is tutorial code. Production ready code needs to handle security etc which are not handled here_
 
 __Step 1:__ Setup Rabbit MQ - docker setup is quick. Below one liner should work. However [official documentation](https://hub.docker.com/_/rabbitmq) is available for reference 
 ```

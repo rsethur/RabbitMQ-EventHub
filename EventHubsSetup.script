@@ -1,0 +1,12 @@
+# run these commands one by one
+
+az login
+
+az group create --name "rabbit" --location eastus
+
+az eventhubs namespace create --name "rabbit-eventhub-ns" --resource-group "rabbit" --location eastus
+
+az eventhubs eventhub create --name "rabbit-hub" --resource-group "rabbit" --namespace-name "rabbit-eventhub-ns"
+
+# Get the "connection string primary key"
+az eventhubs namespace authorization-rule keys list --resource-group "rabbit" --namespace-name "rabbit-eventhub-ns" --name RootManageSharedAccessKey

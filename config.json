@@ -1,0 +1,17 @@
+{
+  "RMQ_QUEUE_NAME" : "task_queue",
+  "RMQ_ROUTING_KEY" : "task_queue",
+  "RMQ_HOST" : "localhost",
+  "RMQ_PORT" : 5672,
+  "RMQ_EXCHANGE" : "",
+  "RMQ_VIRTUALHOST" : "/",
+  "RMQ_USER_NAME" : "guest",
+  "RMQ_PASSWORD" : "guest",
+
+  "EH_ADDRESS" : "amqps://eventhub-namespace.servicebus.windows.net/event-hub-name",
+  "EH_USER" : "RootManageSharedAccessKey",
+  "EH_KEY" : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=",
+  "EH_PARTITION": "0",
+  "EH_CONSUMER_GROUP" : "$default",
+  "EH_OFFSET" : "-1"
+}

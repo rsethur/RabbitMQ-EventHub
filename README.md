@@ -13,10 +13,10 @@ __Step 2:__ Setup Event Hubs: Follow instructions in the `EventHubsSetup.script`
 
 __Step 3:__ Setup python environment (conda/virtual env) - and` pip install pika azure-eventhub`
 
-__Step 3:__ Update the `config.json` with both Rabbit MQ & Event Hub parameters
+__Step 4:__ Update the `config.json` with both Rabbit MQ & Event Hub parameters
 
-__Step 4:__ Pump messages into Rabbit MQ by running `SendMsgsToRabbitMQ.py`
+__Step 5:__ Pump messages into Rabbit MQ by running `SendMsgsToRabbitMQ.py`
 
-__Step 5:__ Push messages from Rabbit MQ to Azure Event Hub by running `PushFromRabbitToEH.py`
+__Step 6:__ Push messages from Rabbit MQ to Azure Event Hub by running `PushFromRabbitToEH.py`
 
-__Step 6:__ You could check the messages in Azure Event Hub by running `EventHubTestRecv.py`
+__Step 7:__ You could check the messages in Azure Event Hub by running `EventHubTestRecv.py`

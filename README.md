@@ -1,4 +1,4 @@
-# Push events from RabbitMQ to Azure Event Hubs - Tutorial Code
+# Push events from RabbitMQ to Azure Event Hubs
 
 A fun collaboration between [Sethu Raman](https://github.com/rsethur/) and __Donovan White__.
 
